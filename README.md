@@ -2,6 +2,9 @@
 
 Project is focued on using GrovePi sensor kit using RaspberryPi
 
+Reference: https://github.com/DexterInd/GrovePi
+[Geting started guide](http://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/)
+
 ## Plan
 * Use GrovePi sensor kit to generate data
 * Use ELK for create initial dashboard
