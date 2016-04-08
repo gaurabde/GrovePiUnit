@@ -32,6 +32,9 @@
 
 
 #Requirements for grovepi configuartion
+#pip install -r requirements.txt
+
+
 cffi
 smbus-cffi
 RPi.GPIO

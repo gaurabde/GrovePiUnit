@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sudo yum install libffi-dev git libi2c-dev i2c-tools minicom
 sudo yum install python-devel.x86_64
 wget https://bootstrap.pypa.io/get-pip.py -O - | python
