@@ -6,6 +6,8 @@ Reference: https://github.com/DexterInd/GrovePi
 
 [Geting started guide](http://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/)
 
+[ELK Docker Guide](http://elk-docker.readthedocs.org/#installation)
+
 ## Plan
 * Use GrovePi sensor kit to generate data
 * Use ELK for create initial dashboard
