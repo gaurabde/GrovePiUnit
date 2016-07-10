@@ -1,8 +1,9 @@
-#!/usr/bin/bash
+#!/bin/bash
 set -xe
+current_dir=$PWD
 project_name='GrovePiUnit'
 project_name_tar=$project_name.tar.gz
-grove_host='192.168.14.19'
+grove_host='192.168.1.8'
 source ~/.bash_profile
 ping -c 1 $grove_host
 resp=$(ping -c 1 $grove_host | grep "1 received")
@@ -18,7 +19,7 @@ tar -zcf $project_name_tar $project_name/
 ls -l ~/PycharmProjects/$project_name_tar
 chmod 777 $project_name_tar
 echo "=====Uploading code to PI======="
-scp ~/PycharmProjects/$project_name_tar pi@$grove_host:~/Documents/
+scp $current_dir/$project_name_tar pi@$grove_host:~/Documents/
 echo "=====Removing old code from PI========"
 ssh pi@$grove_host "rm -rf ~/Documents/$project_name"
 echo "=====Unzipping PI TAR======="

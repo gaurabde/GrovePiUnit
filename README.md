@@ -16,12 +16,12 @@ Reference: https://github.com/DexterInd/GrovePi
 * Add control elements in app for all GrovePi sensors
 
 ## Avaliable sensors
-* Grove - Buzzer
-* Grove - Button
-* Grove - LED (Red/Green/Blue)
-* Grove - Sound Sensor
-* Grove - Relay
-* Grove - Ultrasonic Sensor
-* Grove - Temparature Humidity Sensor
-* Grove - RGB Backlit LCD
-* Grove - Light Sensor
+* Grove - Buzzer :bell:
+* Grove - Button :radio_button:
+* Grove - LED (Red/Green/Blue) :rainbow:
+* Grove - Sound Sensor :speaker:
+* Grove - Relay :fast_forward:
+* Grove - Ultrasonic Sensor :whale:
+* Grove - Temparature Humidity Sensor :snowflake:
+* Grove - RGB Backlit LCD :eyes:
+* Grove - Light Sensor :sun_with_face:

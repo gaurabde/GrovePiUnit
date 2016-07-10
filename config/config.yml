@@ -1,9 +1,9 @@
 ---
 grovepi_config:
-  pins:
-      sound_ sensor: 0
-      red_led: 4
-      rgb_display: 7
-      utlrasonic_pin: 3
-  snore:
-      threshold_value: 50
+ pins:
+   sound_ sensor: 0
+   red_led: 4
+   rgb_display: 7
+   ultrasonic_pin: 3
+ threshold:
+   snore: 50

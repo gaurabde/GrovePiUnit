@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 sudo yum install libffi-dev git libi2c-dev i2c-tools minicom
 sudo yum install python-devel.x86_64
-wget https://bootstrap.pypa.io/get-pip.py -O - | python
+wget https://bootstrap.pypa.io/get-pip.py -O - | sudo python
+
 
 cd ../
-pip install virtualenv
+sudo pip install virtualenv
 virtualenv -p /usr/lib/python2.7 groveEnv
 source groveEnv/bin/activate
 tempdir=`mktemp -d`
