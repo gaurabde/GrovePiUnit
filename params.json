@@ -1,0 +1,6 @@
+{
+  "name": "Grovepiunit",
+  "tagline": "",
+  "body": "\r\n### Welcome to GitHub `GrovePiUnit`\r\n\r\nProject is focued on using GrovePi sensor kit using RaspberryPi\r\n\r\nReference: https://github.com/DexterInd/GrovePi\r\n\r\n[Geting started guide](http://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/)\r\n\r\n[ELK Docker Guide](http://elk-docker.readthedocs.org/#installation)\r\n\r\n## Plan\r\n* Use GrovePi sensor kit to generate data\r\n* Use ELK for create initial dashboard\r\n* tag data to create beauty graph\r\n* create app to display data\r\n* Add control elements in app for all GrovePi sensors\r\n\r\n## Avaliable sensors\r\n* Grove - Buzzer :bell:\r\n* Grove - Button :radio_button:\r\n* Grove - LED (Red/Green/Blue) :rainbow:\r\n* Grove - Sound Sensor :speaker:\r\n* Grove - Relay :fast_forward:\r\n* Grove - Ultrasonic Sensor :whale:\r\n* Grove - Temparature Humidity Sensor :snowflake:\r\n* Grove - RGB Backlit LCD :eyes:\r\n* Grove - Light Sensor :sun_with_face:\r\n\r\n### Authors and Contributors\r\nGaurab Dey (@gaurabde)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
